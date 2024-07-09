@@ -6,7 +6,7 @@ import App from "./App";
 import Login from "../Login/Login";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import Notifications from "../Notifications/Notifications";
+import Notifications from "../Notifications/notifications";
 import CourseList from "../CourseList/CourseList";
 import { shallow, mount } from "enzyme";
 
