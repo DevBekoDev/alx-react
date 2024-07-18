@@ -13,38 +13,21 @@
   }
 }
 
-.App-header { 
-  
-  min-height: 10%;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  flex-direction: row;
-  /*align-items: center;*/
-  /*justify-content: center;*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: red;
-  
-}
-
-.App-body
-{
-  display: block;
-  height: 80%;
-}
-
-.App-footer
-{
-  height: 10%;
+  color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
-hr
-{
-  height: 5px;
-  background-color: red;
-}
-/*
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -52,4 +35,4 @@ hr
   to {
     transform: rotate(360deg);
   }
-}*/
+}

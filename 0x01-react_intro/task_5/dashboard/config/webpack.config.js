@@ -34,10 +34,13 @@ module.exports = {
         ],
       },
       {
-        test: /\.jsx?$/i,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
+        
+        test: /\.jsx?$/,
+    loader: 'babel-loader',
+    exclude: /node_modules/,
+    query: {
+        presets: ['es2015']
+    }
         },
       },
     ],
